@@ -1,2 +1,5 @@
-group 'com.edibleday'
+plugins {
+  id 'eclipse'
+}
 
+group "com.edibleday"

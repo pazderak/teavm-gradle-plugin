@@ -21,7 +21,7 @@ import org.gradle.api.Task
 
 public class TeaVMPlugin : Plugin<Project> {
 
-    val version = "0.4.0"
+    val version = "0.4.3"
 
     override fun apply(project: Project) {
 

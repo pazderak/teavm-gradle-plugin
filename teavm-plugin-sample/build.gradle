@@ -5,13 +5,13 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.edibleday:teavm-gradle-plugin:0.4.0.+" //Depend on plugin
+        classpath "com.edibleday:teavm-gradle-plugin:0.4.3.+" //Depend on plugin
     }
 }
 
 apply plugin: "com.edibleday.teavm" //Applying plugin will add java and application plugins too
 
-sourceCompatibility = JavaVersion.VERSION_1_6
+sourceCompatibility = JavaVersion.VERSION_1_8
 mainClassName = "Main" //Application entry point, main method of this class will be called on page load
 
 repositories {
